@@ -20,6 +20,14 @@ const productSchema = new mongoose.Schema({
 	img: {
 		type: Object,
 		required: true
+	},
+	popular: {
+		type: Boolean,
+		default: false
+	},
+	show: {
+		type: Boolean,
+		default: true
 	}
 });
 
